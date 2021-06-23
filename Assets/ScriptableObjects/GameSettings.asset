@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49b03f0da3d5d148b9e04c7a76a9c58, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  trackRef:
+  - {fileID: 3741079035737064255, guid: 7466bc8ae6fd56444a8eadaf5b7ec749, type: 3}
+  - {fileID: 1949639030611224685, guid: af7a96e3ff37f1143894687a0c9beea0, type: 3}
+  carRef: {fileID: 2744844916429280574, guid: 5f690c53a63ad71478dac7a2861c19a7, type: 3}
