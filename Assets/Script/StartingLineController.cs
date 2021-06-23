@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class StartingLineController : MonoBehaviour
 {  
-    /*[HideInInspector] */public bool lapRoute;
-    /*[HideInInspector]*/ public float counterTimeLap;
+    [HideInInspector]public bool lapRoute;
+    [HideInInspector]public float counterTimeLap;
 
     private void Update()
     {
@@ -27,7 +27,7 @@ public class StartingLineController : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Car"))
         {
             lapRoute = false;
-            GamePlayManager.Instance.Stopwatch = counterTimeLap;
+            GamePlayManager.Instance.m_stopwatch = counterTimeLap;
             counterTimeLap = 0f;
 
         }
